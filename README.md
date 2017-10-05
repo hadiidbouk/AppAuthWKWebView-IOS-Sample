@@ -1,5 +1,5 @@
 # AppAuthWebView-IOS-Sample
-A Sample project of using AppAuth-ios with WebView instead of Safari.
+A Sample project of using AppAuth-ios with WKWebView instead of Safari.
 
 ## Usage
 
