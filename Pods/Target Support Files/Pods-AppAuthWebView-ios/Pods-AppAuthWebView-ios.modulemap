@@ -1,0 +1,6 @@
+framework module Pods_AppAuthWebView_ios {
+  umbrella header "Pods-AppAuthWebView-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

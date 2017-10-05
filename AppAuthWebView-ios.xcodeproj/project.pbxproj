@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		310E74D61F8650A600B004F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310E74D51F8650A600B004F9 /* AppDelegate.swift */; };
+		310E74D81F8650A600B004F9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310E74D71F8650A600B004F9 /* MainVC.swift */; };
+		310E74DB1F8650A600B004F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310E74D91F8650A600B004F9 /* Main.storyboard */; };
+		310E74DD1F8650A600B004F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 310E74DC1F8650A600B004F9 /* Assets.xcassets */; };
+		310E74E01F8650A600B004F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310E74DE1F8650A600B004F9 /* LaunchScreen.storyboard */; };
+		310E74EB1F8650A600B004F9 /* AppAuthWebView_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310E74EA1F8650A600B004F9 /* AppAuthWebView_iosTests.swift */; };
+		310E74F61F8650A600B004F9 /* AppAuthWebView_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310E74F51F8650A600B004F9 /* AppAuthWebView_iosUITests.swift */; };
+		310E75071F86514D00B004F9 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310E75041F86514D00B004F9 /* Config.swift */; };
+		310E75081F86514D00B004F9 /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310E75051F86514D00B004F9 /* AppUserDefaults.swift */; };
+		310E75091F86514D00B004F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310E75061F86514D00B004F9 /* Constants.swift */; };
+		310E750C1F86554B00B004F9 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310E750B1F86554B00B004F9 /* WebViewVC.swift */; };
+		50F0576FDE7A9AC3AD3B14C8 /* Pods_AppAuthWebView_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F7239BBC92DA3B30A702ABC /* Pods_AppAuthWebView_ios.framework */; };
+		C74A6416B7141856E655CF02 /* Pods_AppAuthWebView_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB1F4EC2E44B0125E8A7F55 /* Pods_AppAuthWebView_iosTests.framework */; };
+		EC10482F165BC590C9D03C5D /* Pods_AppAuthWebView_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186DC9BFFDD68A9AA5F02404 /* Pods_AppAuthWebView_iosUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		310E74E71F8650A600B004F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 310E74CA1F8650A600B004F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 310E74D11F8650A600B004F9;
+			remoteInfo = "AppAuthWebView-ios";
+		};
+		310E74F21F8650A600B004F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 310E74CA1F8650A600B004F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 310E74D11F8650A600B004F9;
+			remoteInfo = "AppAuthWebView-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		186DC9BFFDD68A9AA5F02404 /* Pods_AppAuthWebView_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppAuthWebView_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		310E74D21F8650A600B004F9 /* AppAuthWebView-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppAuthWebView-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		310E74D51F8650A600B004F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		310E74D71F8650A600B004F9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		310E74DA1F8650A600B004F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		310E74DC1F8650A600B004F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		310E74DF1F8650A600B004F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		310E74E11F8650A600B004F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310E74E61F8650A600B004F9 /* AppAuthWebView-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppAuthWebView-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		310E74EA1F8650A600B004F9 /* AppAuthWebView_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthWebView_iosTests.swift; sourceTree = "<group>"; };
+		310E74EC1F8650A600B004F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310E74F11F8650A600B004F9 /* AppAuthWebView-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppAuthWebView-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		310E74F51F8650A600B004F9 /* AppAuthWebView_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAuthWebView_iosUITests.swift; sourceTree = "<group>"; };
+		310E74F71F8650A600B004F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		310E75041F86514D00B004F9 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		310E75051F86514D00B004F9 /* AppUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
+		310E75061F86514D00B004F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		310E750B1F86554B00B004F9 /* WebViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
+		565DDD9EFDA20337C99BA04E /* Pods-AppAuthWebView-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAuthWebView-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppAuthWebView-iosUITests/Pods-AppAuthWebView-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC7B60A6AEC6DE773F30EA2 /* Pods-AppAuthWebView-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAuthWebView-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppAuthWebView-ios/Pods-AppAuthWebView-ios.release.xcconfig"; sourceTree = "<group>"; };
+		7C971904561BCB25410E08E6 /* Pods-AppAuthWebView-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAuthWebView-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppAuthWebView-iosUITests/Pods-AppAuthWebView-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7CB1F4EC2E44B0125E8A7F55 /* Pods_AppAuthWebView_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppAuthWebView_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7239BBC92DA3B30A702ABC /* Pods_AppAuthWebView_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppAuthWebView_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF1BC79335AAEAFD56C0EE /* Pods-AppAuthWebView-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAuthWebView-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppAuthWebView-iosTests/Pods-AppAuthWebView-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5BDA940BA5FB614F1625FF2 /* Pods-AppAuthWebView-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAuthWebView-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppAuthWebView-ios/Pods-AppAuthWebView-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		EA602916BCB59ADF75251F2B /* Pods-AppAuthWebView-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAuthWebView-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppAuthWebView-iosTests/Pods-AppAuthWebView-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		310E74CF1F8650A600B004F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F0576FDE7A9AC3AD3B14C8 /* Pods_AppAuthWebView_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310E74E31F8650A600B004F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74A6416B7141856E655CF02 /* Pods_AppAuthWebView_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310E74EE1F8650A600B004F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC10482F165BC590C9D03C5D /* Pods_AppAuthWebView_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		310E74C91F8650A600B004F9 = {
+			isa = PBXGroup;
+			children = (
+				310E74D41F8650A600B004F9 /* AppAuthWebView-ios */,
+				310E74E91F8650A600B004F9 /* AppAuthWebView-iosTests */,
+				310E74F41F8650A600B004F9 /* AppAuthWebView-iosUITests */,
+				310E74D31F8650A600B004F9 /* Products */,
+				FAF88ADF706A6943B1D39A44 /* Pods */,
+				54B4D9CD0A17CA15270001E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		310E74D31F8650A600B004F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				310E74D21F8650A600B004F9 /* AppAuthWebView-ios.app */,
+				310E74E61F8650A600B004F9 /* AppAuthWebView-iosTests.xctest */,
+				310E74F11F8650A600B004F9 /* AppAuthWebView-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		310E74D41F8650A600B004F9 /* AppAuthWebView-ios */ = {
+			isa = PBXGroup;
+			children = (
+				310E750A1F86537400B004F9 /* Contorller */,
+				310E75031F86513D00B004F9 /* Model */,
+				310E74D51F8650A600B004F9 /* AppDelegate.swift */,
+				310E74D91F8650A600B004F9 /* Main.storyboard */,
+				310E74DC1F8650A600B004F9 /* Assets.xcassets */,
+				310E74DE1F8650A600B004F9 /* LaunchScreen.storyboard */,
+				310E74E11F8650A600B004F9 /* Info.plist */,
+			);
+			path = "AppAuthWebView-ios";
+			sourceTree = "<group>";
+		};
+		310E74E91F8650A600B004F9 /* AppAuthWebView-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				310E74EA1F8650A600B004F9 /* AppAuthWebView_iosTests.swift */,
+				310E74EC1F8650A600B004F9 /* Info.plist */,
+			);
+			path = "AppAuthWebView-iosTests";
+			sourceTree = "<group>";
+		};
+		310E74F41F8650A600B004F9 /* AppAuthWebView-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				310E74F51F8650A600B004F9 /* AppAuthWebView_iosUITests.swift */,
+				310E74F71F8650A600B004F9 /* Info.plist */,
+			);
+			path = "AppAuthWebView-iosUITests";
+			sourceTree = "<group>";
+		};
+		310E75031F86513D00B004F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				310E75041F86514D00B004F9 /* Config.swift */,
+				310E75051F86514D00B004F9 /* AppUserDefaults.swift */,
+				310E75061F86514D00B004F9 /* Constants.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		310E750A1F86537400B004F9 /* Contorller */ = {
+			isa = PBXGroup;
+			children = (
+				310E74D71F8650A600B004F9 /* MainVC.swift */,
+				310E750B1F86554B00B004F9 /* WebViewVC.swift */,
+			);
+			name = Contorller;
+			sourceTree = "<group>";
+		};
+		54B4D9CD0A17CA15270001E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F7239BBC92DA3B30A702ABC /* Pods_AppAuthWebView_ios.framework */,
+				7CB1F4EC2E44B0125E8A7F55 /* Pods_AppAuthWebView_iosTests.framework */,
+				186DC9BFFDD68A9AA5F02404 /* Pods_AppAuthWebView_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF88ADF706A6943B1D39A44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5BDA940BA5FB614F1625FF2 /* Pods-AppAuthWebView-ios.debug.xcconfig */,
+				6AC7B60A6AEC6DE773F30EA2 /* Pods-AppAuthWebView-ios.release.xcconfig */,
+				CBCF1BC79335AAEAFD56C0EE /* Pods-AppAuthWebView-iosTests.debug.xcconfig */,
+				EA602916BCB59ADF75251F2B /* Pods-AppAuthWebView-iosTests.release.xcconfig */,
+				565DDD9EFDA20337C99BA04E /* Pods-AppAuthWebView-iosUITests.debug.xcconfig */,
+				7C971904561BCB25410E08E6 /* Pods-AppAuthWebView-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		310E74D11F8650A600B004F9 /* AppAuthWebView-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310E74FA1F8650A600B004F9 /* Build configuration list for PBXNativeTarget "AppAuthWebView-ios" */;
+			buildPhases = (
+				ABCBF42E57C4189CDCF177A5 /* [CP] Check Pods Manifest.lock */,
+				310E74CE1F8650A600B004F9 /* Sources */,
+				310E74CF1F8650A600B004F9 /* Frameworks */,
+				310E74D01F8650A600B004F9 /* Resources */,
+				399DC5A1856DEB0FE6ED1D49 /* [CP] Embed Pods Frameworks */,
+				CCEE21FFF623A685FC01DEFA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppAuthWebView-ios";
+			productName = "AppAuthWebView-ios";
+			productReference = 310E74D21F8650A600B004F9 /* AppAuthWebView-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		310E74E51F8650A600B004F9 /* AppAuthWebView-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310E74FD1F8650A600B004F9 /* Build configuration list for PBXNativeTarget "AppAuthWebView-iosTests" */;
+			buildPhases = (
+				9C68293730F78BAC94B3DD22 /* [CP] Check Pods Manifest.lock */,
+				310E74E21F8650A600B004F9 /* Sources */,
+				310E74E31F8650A600B004F9 /* Frameworks */,
+				310E74E41F8650A600B004F9 /* Resources */,
+				43F6AB70103ACCA1D614426F /* [CP] Embed Pods Frameworks */,
+				EFE9A493CC8A7AE1246B2DC5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				310E74E81F8650A600B004F9 /* PBXTargetDependency */,
+			);
+			name = "AppAuthWebView-iosTests";
+			productName = "AppAuthWebView-iosTests";
+			productReference = 310E74E61F8650A600B004F9 /* AppAuthWebView-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		310E74F01F8650A600B004F9 /* AppAuthWebView-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 310E75001F8650A600B004F9 /* Build configuration list for PBXNativeTarget "AppAuthWebView-iosUITests" */;
+			buildPhases = (
+				FBC560D70E3934E37C79FF2D /* [CP] Check Pods Manifest.lock */,
+				310E74ED1F8650A600B004F9 /* Sources */,
+				310E74EE1F8650A600B004F9 /* Frameworks */,
+				310E74EF1F8650A600B004F9 /* Resources */,
+				84CC828F6F7EBE3D088BBDB5 /* [CP] Embed Pods Frameworks */,
+				445F4F18913CF1E86B63D947 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				310E74F31F8650A600B004F9 /* PBXTargetDependency */,
+			);
+			name = "AppAuthWebView-iosUITests";
+			productName = "AppAuthWebView-iosUITests";
+			productReference = 310E74F11F8650A600B004F9 /* AppAuthWebView-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		310E74CA1F8650A600B004F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Hadi Dbouk";
+				TargetAttributes = {
+					310E74D11F8650A600B004F9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					310E74E51F8650A600B004F9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 310E74D11F8650A600B004F9;
+					};
+					310E74F01F8650A600B004F9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 310E74D11F8650A600B004F9;
+					};
+				};
+			};
+			buildConfigurationList = 310E74CD1F8650A600B004F9 /* Build configuration list for PBXProject "AppAuthWebView-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 310E74C91F8650A600B004F9;
+			productRefGroup = 310E74D31F8650A600B004F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				310E74D11F8650A600B004F9 /* AppAuthWebView-ios */,
+				310E74E51F8650A600B004F9 /* AppAuthWebView-iosTests */,
+				310E74F01F8650A600B004F9 /* AppAuthWebView-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		310E74D01F8650A600B004F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310E74E01F8650A600B004F9 /* LaunchScreen.storyboard in Resources */,
+				310E74DD1F8650A600B004F9 /* Assets.xcassets in Resources */,
+				310E74DB1F8650A600B004F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310E74E41F8650A600B004F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310E74EF1F8650A600B004F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		399DC5A1856DEB0FE6ED1D49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppAuthWebView-ios/Pods-AppAuthWebView-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43F6AB70103ACCA1D614426F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppAuthWebView-iosTests/Pods-AppAuthWebView-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		445F4F18913CF1E86B63D947 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppAuthWebView-iosUITests/Pods-AppAuthWebView-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84CC828F6F7EBE3D088BBDB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppAuthWebView-iosUITests/Pods-AppAuthWebView-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C68293730F78BAC94B3DD22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ABCBF42E57C4189CDCF177A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CCEE21FFF623A685FC01DEFA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppAuthWebView-ios/Pods-AppAuthWebView-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE9A493CC8A7AE1246B2DC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppAuthWebView-iosTests/Pods-AppAuthWebView-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBC560D70E3934E37C79FF2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		310E74CE1F8650A600B004F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310E75091F86514D00B004F9 /* Constants.swift in Sources */,
+				310E75081F86514D00B004F9 /* AppUserDefaults.swift in Sources */,
+				310E750C1F86554B00B004F9 /* WebViewVC.swift in Sources */,
+				310E74D81F8650A600B004F9 /* MainVC.swift in Sources */,
+				310E74D61F8650A600B004F9 /* AppDelegate.swift in Sources */,
+				310E75071F86514D00B004F9 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310E74E21F8650A600B004F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310E74EB1F8650A600B004F9 /* AppAuthWebView_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		310E74ED1F8650A600B004F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310E74F61F8650A600B004F9 /* AppAuthWebView_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		310E74E81F8650A600B004F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 310E74D11F8650A600B004F9 /* AppAuthWebView-ios */;
+			targetProxy = 310E74E71F8650A600B004F9 /* PBXContainerItemProxy */;
+		};
+		310E74F31F8650A600B004F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 310E74D11F8650A600B004F9 /* AppAuthWebView-ios */;
+			targetProxy = 310E74F21F8650A600B004F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		310E74D91F8650A600B004F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310E74DA1F8650A600B004F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		310E74DE1F8650A600B004F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				310E74DF1F8650A600B004F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		310E74F81F8650A600B004F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		310E74F91F8650A600B004F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		310E74FB1F8650A600B004F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BDA940BA5FB614F1625FF2 /* Pods-AppAuthWebView-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AppAuthWebView-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beyondtec.AppAuthWebView-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		310E74FC1F8650A600B004F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC7B60A6AEC6DE773F30EA2 /* Pods-AppAuthWebView-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AppAuthWebView-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beyondtec.AppAuthWebView-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		310E74FE1F8650A600B004F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBCF1BC79335AAEAFD56C0EE /* Pods-AppAuthWebView-iosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AppAuthWebView-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beyondtec.AppAuthWebView-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppAuthWebView-ios.app/AppAuthWebView-ios";
+			};
+			name = Debug;
+		};
+		310E74FF1F8650A600B004F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA602916BCB59ADF75251F2B /* Pods-AppAuthWebView-iosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AppAuthWebView-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beyondtec.AppAuthWebView-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppAuthWebView-ios.app/AppAuthWebView-ios";
+			};
+			name = Release;
+		};
+		310E75011F8650A600B004F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565DDD9EFDA20337C99BA04E /* Pods-AppAuthWebView-iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "AppAuthWebView-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beyondtec.AppAuthWebView-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "AppAuthWebView-ios";
+			};
+			name = Debug;
+		};
+		310E75021F8650A600B004F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C971904561BCB25410E08E6 /* Pods-AppAuthWebView-iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "AppAuthWebView-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "beyondtec.AppAuthWebView-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "AppAuthWebView-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		310E74CD1F8650A600B004F9 /* Build configuration list for PBXProject "AppAuthWebView-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310E74F81F8650A600B004F9 /* Debug */,
+				310E74F91F8650A600B004F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		310E74FA1F8650A600B004F9 /* Build configuration list for PBXNativeTarget "AppAuthWebView-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310E74FB1F8650A600B004F9 /* Debug */,
+				310E74FC1F8650A600B004F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		310E74FD1F8650A600B004F9 /* Build configuration list for PBXNativeTarget "AppAuthWebView-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310E74FE1F8650A600B004F9 /* Debug */,
+				310E74FF1F8650A600B004F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		310E75001F8650A600B004F9 /* Build configuration list for PBXNativeTarget "AppAuthWebView-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310E75011F8650A600B004F9 /* Debug */,
+				310E75021F8650A600B004F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 310E74CA1F8650A600B004F9 /* Project object */;
+}

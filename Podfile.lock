@@ -1,0 +1,12 @@
+PODS:
+  - AppAuth (0.90.0)
+
+DEPENDENCIES:
+  - AppAuth
+
+SPEC CHECKSUMS:
+  AppAuth: f0bc91f392ab9eb1cf3150b26d5d7f326fc7c04d
+
+PODFILE CHECKSUM: 0a268f2b1a5396aedf9bdc7c00a3a9e4853cbb6a
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AppAuth.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-AppAuthWebView-ios.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-AppAuthWebView-iosTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-AppAuthWebView-iosUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>14A8A9E770E2887E89AD233742B2DA69</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3EC129F2B83ECE2788142BF779A6B41D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>842F72DCDC6161BB37D6B901E9301ED8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8AAF4B8659B11B84A0633728ABC0CB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
